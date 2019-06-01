@@ -1,4 +1,5 @@
-Num=int(input("Enter the number"))
+import sys
+Num=sys.argv[1]
 
 if(Num==1):
     print(Num,"is a prime numner")
