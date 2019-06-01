@@ -1,5 +1,5 @@
 import sys
-Num=sys.argv[1]
+Num=int(sys.argv[1])
 
 if(Num==1):
     print(Num,"is a prime numner")
